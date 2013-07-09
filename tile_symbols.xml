@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map [
+<!ENTITY maxscale_zoom2 "<MaxScaleDenominator>200000000</MaxScaleDenominator>">
+<!ENTITY minscale_zoom19 "<MinScaleDenominator>500</MinScaleDenominator>">
+<!ENTITY zoom_inf "<MinScaleDenominator>1</MinScaleDenominator>">
+]>
+<Map minimum-version="2.0.0">
+
+<Style name="polygon">
+    <Rule>
+        &maxscale_zoom2;
+        &minscale_zoom19;
+        
+        <LineSymbolizer  stroke-width="0.5" stroke-opacity="0.6"/>
+    </Rule>
+</Style>
+</Map>
