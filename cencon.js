@@ -5,7 +5,7 @@ var fs = require('fs');
 var http = require('http');
 var parseXYZ = require('./tile.js').parseXYZ;
 var path = require('path');
-var port = 30191;
+var port = 8000;
 var TMS_SCHEME = false;
 
 // change this to fit your db connection and settings
@@ -13,8 +13,8 @@ var postgis_settings = {
   'host' : 'localhost',
   'dbname' : 'sparkgeo_census',
   'table' : 'censustracts900913',
-  'user' : 'sparkgeo_census',
-  'password' : 'sparkgeo_census',
+  'user' : '<your_username>',
+  'password' : '<your_password>',
   'type' : 'postgis',
   'initial_size' : '10',
  'estimate_extent' : '1'
