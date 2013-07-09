@@ -1,7 +1,7 @@
 censusTracts
 ============
 
-from <a href="http://www.sparkgeo.com/labs/big">This Sparkgeo labs page </a>
+from <a href="http://www.sparkgeo.com/labs/big">this Sparkgeo labs page </a>
 
 a census tract visualisation example using node, mapnik and postgis
 
