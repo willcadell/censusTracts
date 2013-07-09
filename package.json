@@ -1,0 +1,12 @@
+{
+"name": "census_map",
+"version": "0.0.1",
+"dependencies": {
+  "mapnik": "0.7.16",
+	"express": "2.5.x"
+	},
+"engines": {
+	"node": "0.8.9",
+	"npm": "1.x.x"
+	}
+}
