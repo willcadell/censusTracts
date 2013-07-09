@@ -26,11 +26,8 @@ a census tract visualisation example using node, mapnik and postgis
 </div>
 </div>
 
-<p>This is what we are shooting for, its a Google map with the 70,000 or so US Census Tract polygons overlaid on top:</p>
+<p>This is what we are shooting for (oops, it doesn't show up in the readme, its a Google map with the 70,000 or so US Census Tract polygons overlaid on top <a href="http://snippets.sparkgeo.com/census">like this</a>).</p>
 
-<div class="row">
-	<iframe class="grid-12" src="http://snippets.sparkgeo.com/census" frameborder="0" height="500px"></iframe>
-</div>
 <hr class="row-divider">
 <strong>Points To Note</strong>
 <p>There is no cache, we will not be "optimizing" this system at all. A great deal can be done with node and node-mapnik but this example uses both of these technologies in the most crude of manners. So that means you can take this much further if you want to take the wheels off and have a proper look. additionally the styling is also somewhat bleak, Mapnik provides a vast array of styling options. This example stays very simple.</p>
